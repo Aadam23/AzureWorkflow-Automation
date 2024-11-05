@@ -1,0 +1,5 @@
+You have a new form submission:
+
+Name: @{triggerBody()?['name']}
+Email: @{triggerBody()?['email']}
+Message: @{triggerBody()?['message']}
